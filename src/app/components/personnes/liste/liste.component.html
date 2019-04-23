@@ -1,0 +1,5 @@
+<div *ngFor="let personne of personnes">
+    <div (click)="selectPersonne(personne)">
+        <p>{{ personne.nom }} {{ personne.prenom }}</p>
+    </div>
+</div>

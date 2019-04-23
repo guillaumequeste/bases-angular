@@ -1,0 +1,10 @@
+<div>
+    <a (click)="goBack()" class="retour">Retour</a>
+</div>
+<h4 *ngIf="!personne" class="rien">Auncun joueur à afficher</h4>
+<div *ngIf="personne">
+    <img [src]="personne.photo">
+    <h4>{{ personne.nom }} {{ personne.prenom }}</h4>
+    <p>{{ personne.age }}</p>
+    <p>{{ personne.profession }}</p>
+</div>
