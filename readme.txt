@@ -13,3 +13,12 @@ Ajouter bootstrap :
         ]
 
         (JSON with comments)
+
+ng serve -o
+
+ng --version
+
+ng build --prod
+
+Upgrade :
+ng update @angular/core @angular/cli
