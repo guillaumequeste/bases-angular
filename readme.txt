@@ -20,5 +20,5 @@ ng --version
 
 ng build --prod
 
-Updatee :
+Update :
 ng update @angular/core @angular/cli
