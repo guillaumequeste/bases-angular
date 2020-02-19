@@ -22,3 +22,8 @@ ng build --prod
 
 Update :
 ng update @angular/core @angular/cli
+
+Redirection :
+    { path: 'notfound', component: ErreurComponent },
+    { path: '', redirectTo: 'accueil', pathMatch: 'full' },
+    { path: '**', redirectTo: '/notfound' }

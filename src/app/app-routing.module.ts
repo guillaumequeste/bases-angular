@@ -9,8 +9,9 @@ const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
   { path: 'normal', component: NormalComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'notfound', component: ErreurComponent },
   { path: '', redirectTo: 'accueil', pathMatch: 'full' },
-  { path: '**', component: ErreurComponent }
+  { path: '**', redirectTo: '/notfound' }
 ];
 
 @NgModule({
