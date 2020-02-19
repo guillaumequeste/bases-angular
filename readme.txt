@@ -27,3 +27,10 @@ Redirection :
     { path: 'notfound', component: ErreurComponent },
     { path: '', redirectTo: 'accueil', pathMatch: 'full' },
     { path: '**', redirectTo: '/notfound' }
+et en production, à la racine, fichier ".htaccess" :
+    RewriteEngine On
+        RewriteBase /
+        RewriteRule ^index.html$ - [L]
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteCond %{REQUEST_FILENAME} !-d
+        RewriteRule . /index.html [L]
