@@ -14,6 +14,8 @@ Ajouter bootstrap :
 
         (JSON with comments)
 
+ng g c components/accueil
+
 ng serve -o
 
 ng --version
