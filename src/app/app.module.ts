@@ -10,6 +10,7 @@ import { AccueilComponent } from './components/accueil/accueil.component';
 import { ErreurComponent } from './components/erreur/erreur.component';
 import { PersonnesService } from './components/personnes/services/personnes.service';
 import { PersonnesModule } from './components/personnes/personnes.module';
+import { ApiComponent } from './components/api/api.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PersonnesModule } from './components/personnes/personnes.module';
     ContactComponent,
     HeaderComponent,
     AccueilComponent,
-    ErreurComponent
+    ErreurComponent,
+    ApiComponent
   ],
   imports: [
     BrowserModule,
