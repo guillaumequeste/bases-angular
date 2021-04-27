@@ -11,6 +11,8 @@ import { ErreurComponent } from './components/erreur/erreur.component';
 import { PersonnesService } from './components/personnes/services/personnes.service';
 import { PersonnesModule } from './components/personnes/personnes.module';
 import { ApiComponent } from './components/api/api.component';
+import { AnimationsComponent } from './components/animations/animations.component';
+import { PanierComponent } from './components/panier/panier.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ApiComponent } from './components/api/api.component';
     HeaderComponent,
     AccueilComponent,
     ErreurComponent,
-    ApiComponent
+    ApiComponent,
+    AnimationsComponent,
+    PanierComponent
   ],
   imports: [
     BrowserModule,

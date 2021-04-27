@@ -1,0 +1,21 @@
+a:hover {
+    cursor: pointer;
+}
+
+.btn {
+    background-color: bisque;
+}
+
+.appear.hidden {
+    display: none;
+}
+
+
+/*
+scss
+.appear {
+    &.hidden {
+        display: none;
+    }
+}
+*/
