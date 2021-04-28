@@ -1,13 +1,8 @@
-<p>panier works</p>
-
 <div class="fast-cart" [@openClose]="isOpen ? 'open' : 'closed'">
     <!-- languette du carousel -->
     <div class="edge" (click)="toggle_click()">
 
     </div>
-
-    <!-- on agrandit le petit panier afin qu'une partie soit sur la droite de la page non visible pour l'utilisateur et on applique HostListener (mouseenter et mouseleave) dessus -->
-    <div class="mouseOver"></div>
 
     <!-- petit panier -->
     <div class="container">

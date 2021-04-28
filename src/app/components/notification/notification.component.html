@@ -1,0 +1,15 @@
+<p>notification works!</p>
+
+<!-- notif -->
+<div class="notif_chevron" [ngClass]="isOpen ? 'none' : 'display'" (click)="notif()">
+
+</div>
+<div class="line_notif" [ngClass]="isOpen ? 'display' : 'none'" [@openClose]="isOpen ? 'openline' : 'closedline'"></div>
+<div class="notif" [@openClose]="isOpen ? 'open' : 'closed'">
+    <div class="left">
+        <div class="text">texte</div>
+    </div>
+    <div class="chevron" (click)="notif()">
+        <div class="x">x</div>
+    </div>
+</div>

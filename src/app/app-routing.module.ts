@@ -7,6 +7,7 @@ import { ErreurComponent } from './components/erreur/erreur.component';
 import { ApiComponent } from './components/api/api.component';
 import { AnimationsComponent } from './components/animations/animations.component';
 import { PanierComponent } from './components/panier/panier.component';
+import { NotificationComponent } from './components/notification/notification.component';
 
 const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'api', component: ApiComponent },
   { path: 'animations', component: AnimationsComponent },
   { path: 'panier', component: PanierComponent },
+  { path: 'notification', component: NotificationComponent },
   { path: 'notfound', component: ErreurComponent },
   { path: '', redirectTo: 'accueil', pathMatch: 'full' },
   { path: '**', redirectTo: '/notfound' }

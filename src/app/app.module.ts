@@ -14,6 +14,7 @@ import { ApiComponent } from './components/api/api.component';
 import { AnimationsComponent } from './components/animations/animations.component';
 import { PanierComponent } from './components/panier/panier.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NotificationComponent } from './components/notification/notification.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ErreurComponent,
     ApiComponent,
     AnimationsComponent,
-    PanierComponent
+    PanierComponent,
+    NotificationComponent
   ],
   imports: [
     BrowserModule,

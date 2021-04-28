@@ -5,7 +5,7 @@
     border-left: 1px solid grey;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     right: 0;
-    z-index: 150;
+    z-index: 2;
 }
 
 
@@ -30,18 +30,6 @@
 
 .edge:hover {
     cursor: pointer;
-}
-
-
-/* zone qui permet l'ouverture du petit panier */
-
-.mouseOver {
-    position: absolute;
-    left: -75px + 50;
-    width: 75px;
-    height: 100%;
-    top: 0;
-    z-index: 2;
 }
 
 
