@@ -1,0 +1,10 @@
+<p><b>lastUpdate</b> : {{ lastUpdate }}</p>
+<p><b>lastUpdate | date</b> : {{ lastUpdate | date }}</p>
+<p><b>lastUpdate | date: 'short'</b> : {{ lastUpdate | date: 'short' }}</p>
+<p><b>lastUpdate | date: 'yMMMMEEEEd'</b> : {{ lastUpdate | date: 'yMMMMEEEEd' }}</p>
+<p><b>lastUpdate | date: 'yMMMMEEEEd' | uppercase</b> : {{ lastUpdate | date: 'yMMMMEEEEd' | uppercase }}</p>
+
+<hr>
+
+<p>On affiche une promesse, la donnée s'affiche au bout de 2 secondes :</p>
+<p><b>nextUpdate | async | date: 'yMMMMEEEEd' | uppercase</b> : {{ nextUpdate | async | date: 'yMMMMEEEEd' | uppercase }}</p>

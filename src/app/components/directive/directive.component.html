@@ -1,0 +1,21 @@
+<h2>Directives structurelles :</h2>
+
+<h4>*ngIf</h4>
+<div *ngIf="dir === true">dir === true (s'affiche uniquement si 'dir === true')</div>
+
+<h4>*ngFor (et *ngModel, on a importé formsModule dans app.module.ts)</h4>
+<div *ngFor="let appareil of appareils">
+    <span>{{appareil.name}} - </span><span>{{appareil.status}}</span><input type="text" class="form-control" [(ngModel)]="appareil.name">
+</div>
+
+<h2>Directives par attribut :</h2>
+
+<h4>*ngStyle</h4>
+<div [ngStyle]="{color: getColor()}">Si dir === true, alors c'est écrit en vert, si dir === false, alors c'est écrit en rouge</div>
+
+<h4>*ngClass</h4>
+<div [ngClass]="dir ? 'green' : 'red'">Si dir === true, alors c'est écrit en vert, si dir === false, alors c'est écrit en rouge</div>
+
+<hr>
+
+<p>app-my-component [firstName]="James">, je m'attends à voir dans le component correspondant : @Input() firstName: string; </p>

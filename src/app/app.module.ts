@@ -15,6 +15,9 @@ import { AnimationsComponent } from './components/animations/animations.componen
 import { PanierComponent } from './components/panier/panier.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NotificationComponent } from './components/notification/notification.component';
+import { PipeComponent } from './components/pipe/pipe.component';
+import { DirectiveComponent } from './components/directive/directive.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,13 +30,16 @@ import { NotificationComponent } from './components/notification/notification.co
     ApiComponent,
     AnimationsComponent,
     PanierComponent,
-    NotificationComponent
+    NotificationComponent,
+    PipeComponent,
+    DirectiveComponent
   ],
   imports: [
     BrowserModule,
     PersonnesModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [PersonnesService],
   bootstrap: [AppComponent]
