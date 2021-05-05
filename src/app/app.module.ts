@@ -18,6 +18,7 @@ import { NotificationComponent } from './components/notification/notification.co
 import { PipeComponent } from './components/pipe/pipe.component';
 import { DirectiveComponent } from './components/directive/directive.component';
 import { FormsModule } from '@angular/forms';
+import { ObservableComponent } from './components/observable/observable.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FormsModule } from '@angular/forms';
     PanierComponent,
     NotificationComponent,
     PipeComponent,
-    DirectiveComponent
+    DirectiveComponent,
+    ObservableComponent
   ],
   imports: [
     BrowserModule,

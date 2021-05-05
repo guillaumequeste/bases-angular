@@ -10,6 +10,7 @@ import { PanierComponent } from './components/panier/panier.component';
 import { NotificationComponent } from './components/notification/notification.component';
 import { PipeComponent } from './components/pipe/pipe.component';
 import { DirectiveComponent } from './components/directive/directive.component';
+import { ObservableComponent } from './components/observable/observable.component';
 
 const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'notification', component: NotificationComponent },
   { path: 'pipe', component: PipeComponent },
   { path: 'directive', component: DirectiveComponent },
+  { path: 'observable', component: ObservableComponent },
   { path: 'notfound', component: ErreurComponent },
   { path: '', redirectTo: 'accueil', pathMatch: 'full' },
   { path: '**', redirectTo: '/notfound' }

@@ -14,16 +14,23 @@ Ajouter bootstrap :
 
         (JSON with comments)
 
+
 ng g c components/accueil
+
 
 ng serve -o
 
+
 ng --version
+
 
 ng build --prod
 
+
 Update :
 ng update @angular/core @angular/cli
+https://update.angular.io/
+
 
 Redirection :
     { path: 'notfound', component: ErreurComponent },
@@ -36,3 +43,7 @@ et en production, à la racine, fichier ".htaccess" :
         RewriteCond %{REQUEST_FILENAME} !-f
         RewriteCond %{REQUEST_FILENAME} !-d
         RewriteRule . /index.html [L]
+
+
+Angular material :
+https://material.angular.io/
