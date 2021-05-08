@@ -21,7 +21,7 @@
     "@angular/router": "~10.0.1",
     "core-js": "^2.5.4",
     "handlebars": "^4.5.3",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.21",
     "mixin-deep": "^2.0.1",
     "rxjs": "~6.5.4",
     "serialize-javascript": "^2.1.2",
