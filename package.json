@@ -25,7 +25,7 @@
     "mixin-deep": "^2.0.1",
     "rxjs": "~6.5.4",
     "serialize-javascript": "^2.1.2",
-    "set-value": "^3.0.1",
+    "set-value": "^4.0.1",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
   },
